@@ -40,6 +40,7 @@ Time: 20 minutes
 # FindLargestKata
 Algorithm.FindLargest(int[] numbers) should return the largest number from numbers. The array
 numbers always contains at least one number.
+
 Implement Algorithm.FindLargest(int[] numbers).
 
 Time: 5 minutes
@@ -54,15 +55,19 @@ Time: 15 minutes
 # ATestKata
 A.Test(int i, int j) should return true if one of the arguments equals 1 or if their sum is equal to 1.
 
-For example:
-A.Test(1, 5) returns true
-A.Test(2, 3) returns false
-A.Test(-3, 4) returns true
+For example:  
+A.Test(1, 5) returns true  
+A.Test(2, 3) returns false  
+A.Test(-3, 4) returns true  
 
 Time: 2 minutes
 
 # StringParserKata
-You are given a sequence of characters consisting of parentheses () and brackets []. A string of this type is said to be correct: if it is an empty or null string if the string A is correct, (A) and [B] are correct if the string A and B are correct, the concatenation AB is also correct
+You are given a sequence of characters consisting of parentheses () and brackets []. A string of this type is said to be correct:  
+if it is an empty or null string  
+if the string A is correct, (A) and [A] are correct  
+if the string A and B are correct, the concatenation AB is also correct
+
 Input: The string contains at most 10 000 characters.
 
 Examples: [()] is correct, (()[]) is correct, ([)] is not correct, (( is not correct.

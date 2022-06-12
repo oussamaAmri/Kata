@@ -1,7 +1,7 @@
 # Enveloppes rouges
 Dans la culture chinoise, il est commun lors des célébrations de donner des "enveloppes rouges" (##) contenant un peu d'argent. Le plus souvent, les générations adultes donnent aux générations plus jeunes.
 
-Vous souhaitez construire une application WeChat pour aider les grand-parents à répartir leur budget de don entre leurs petits-enfants. Écrivez un programme qui calcule le nombre de dons "porte-bohneur" (égaux à 8) en fonction du budget, money , et du nombre de petits-enfants, giftees.
+Vous souhaitez construire une application WeChat pour aider les grand-parents à répartir leur budget de don entre leurs petits-enfants. Écrivez un programme qui calcule le nombre de dons "porte-bohneur" (égaux à 8) en fonction du budget, money, et du nombre de petits-enfants, giftees.
 
 Fonctionnement
 De nombreuses règles, mêlant tradition et superstition, encadre ce don :

@@ -41,7 +41,7 @@ public class ATest
     [Fact(DisplayName = "The solution works when the array contains only negative integers")]
     public void Should_Find_Closest_To_Zero_When_Only_Negative_Intergers()
     {
-        var ints = new[] { -7, -3, 9, -4 };
+        var ints = new[] { -7, -3, -9, -4 };
 
         var result = A.ClosestToZero(ints);
 

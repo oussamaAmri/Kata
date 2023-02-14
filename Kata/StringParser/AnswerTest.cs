@@ -11,7 +11,7 @@ public class AnswerTest
         var result1 = Answer.Check("()");
         Check.That(result1).IsTrue();
 
-        var result2 = Answer.Check("[]");
+        var result2 = Answer.Check("[]");   
         Check.That(result2).IsTrue();
 
         var result3 = Answer.Check("()()");

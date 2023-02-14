@@ -1,9 +1,15 @@
 ﻿namespace LargestWinsFromChaos;
 
-internal class Algorithm
+public class Algorithm
 {
-    internal static int FindLargest(int[] numbers)
+    public static int FindLargest(int[] numbers)
     {
-        throw new NotImplementedException();
+        int largest = numbers[0];
+        for (int i = 1; i < numbers.Length; i++)
+        {
+            if (numbers[i] > largest)
+                largest = numbers[i];
+        }
+        return largest;
     }
 }

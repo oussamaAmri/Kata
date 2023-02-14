@@ -1,8 +1,8 @@
 ﻿namespace SimpleBooleanExpression;
 
-internal class A
+public class A
 {
-    internal static bool Test(int i, int j)
+    public static bool Test(int i, int j)
     {
         return i == 1 || j == 1 || i + j == 1;
     }

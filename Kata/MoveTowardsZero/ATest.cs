@@ -36,7 +36,18 @@ public class ATest
         var ints5 = new[] { int.MinValue, int.MinValue };
         var result5 = A.ClosestToZero(ints5);
         Check.That(result5).IsEqualTo(int.MinValue);
+
+
     }
+    [Fact(DisplayName = "The solution works with negative numbers")]
+    public void Should_Find_Closest_To_Zero_When_Min_And_Min_Integers()
+    {
+        var ints5 = new[] { -5, -5 };
+        var result5 = A.ClosestToZero(ints5);
+        Check.That(result5).IsEqualTo(-5);
+    }
+
+
 
     [Fact(DisplayName = "The solution works when the array contains only negative integers")]
     public void Should_Find_Closest_To_Zero_When_Only_Negative_Intergers()
@@ -82,5 +93,14 @@ public class ATest
         var result = A.ClosestToZero(null!);
 
         Check.That(result).IsEqualTo(0);
+    }
+    [Fact(DisplayName = "FindSmallinterval")]
+    public void Should_Find_Small_interval()
+    {
+        var ints = new[] { 6, -1, 3, -2, 9 };
+
+        var result = A.findSmallestInterval(ints);
+
+        Check.That(result).IsEqualTo(1);
     }
 }
